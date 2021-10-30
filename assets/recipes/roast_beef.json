@@ -1,0 +1,251 @@
+{
+    "@context": "http://schema.org",
+    
+    "@type": ["Recipe"]
+    ,"headline": "Roast Beef"
+    ,"datePublished": "2014-11-13T10:47:29.000-05:00"
+    ,"dateModified": "2021-10-28T15:17:23.464-04:00"
+    ,"author": [
+    {"@type": "Person"
+    ,"name": "Elise Bauer"
+    ,"description": "Elise founded Simply Recipes in 2003 and led the site until 2019. She has an MA in Food Research from Stanford University."
+    ,"jobTitle": "Founder"
+    ,"sameAs": [
+    "https://www.instagram.com/elisebauer/",
+    "https://www.simplyrecipes.com/elise-bauer-5091824"
+    ]
+    ,"knowsAbout": ["Scratch cooking with whole ingredients"]
+    ,"alumniOf": [
+    {
+    "@type": "Organization",
+    "Name": "Stanford University: BS in Environmental Science; MA in Food Research; MBA from the Graduate School of Business "
+    }
+    ]
+    }
+    ]
+    ,"description": "This classic roast beef recipe can be made with rump roast, round roast, or sirloin roast. Slow-roasting on low heat works magic on tougher cuts of meat and provides a tender roast beef recipe you’ll love!"
+    ,"image": [
+    {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/vrisxhL2S6UHiMzsAHsHH_UouiM=/4752x2673/smart/filters:no_upscale()/Simply-Recipes-Roast-Beef-SEO-1de45b2fe5244c399012bf7941dc40cc.jpg",
+    "height": 2673,
+    "width": 4752
+    },
+    {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/5mrdFh_G7VqbuxiQJ9N8qH5YGJw=/4224x3168/smart/filters:no_upscale()/Simply-Recipes-Roast-Beef-SEO-1de45b2fe5244c399012bf7941dc40cc.jpg",
+    "height": 3168,
+    "width": 4224
+    },
+    {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/kB1hBJQ0FAUWIxNrPEpDtmECcfs=/3168x3168/smart/filters:no_upscale()/Simply-Recipes-Roast-Beef-SEO-1de45b2fe5244c399012bf7941dc40cc.jpg",
+    "height": 3168,
+    "width": 3168
+    }
+    ]
+    ,"video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://cdn.jwplayer.com/videos/B54QykMG-tXzwfO7V.mp4",
+    "description": "Classic roast beef recipe using rump roast, round roast, or sirloin tip. This slow roasting method at low heat is good for tougher cuts of beef; the lower heat prevents any gristle from getting too tough.",
+    "duration": "PT1M52S",
+    "name": "How to Make Roast Beef",
+    "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/B54QykMG/poster.jpg?width=720",
+    "uploadDate": "2021-01-21T03:39:28.895Z"}
+    ,"publisher": {
+    "@type": "Organization",
+    "name": "Simply Recipes",
+    "url": "https://www.simplyrecipes.com",
+    "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+    "width": 1125,
+    "height": 320
+    },
+    "brand": "Simply Recipes"
+    , "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#editorial-guidelines"
+    }
+    ,"name": "Roast Beef"
+    ,"aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4",
+    "ratingCount": "241"
+    }
+    ,"cookTime": "PT180M"
+    ,"keywords": "Budget, Beef, Beef Roast, American, Gluten-Free, Low Carb, Paleo, Dinner, Christmas, Favorite Fall, Favorite Winter, Holiday"
+    ,"nutrition": {
+    "@type": "NutritionInformation"
+    ,"calories": "527 kcal"
+    ,"carbohydrateContent": "2 g"
+    ,"cholesterolContent": "188 mg"
+    ,"fiberContent": "0 g"
+    ,"proteinContent": "59 g"
+    ,"saturatedFatContent": "10 g"
+    ,"sodiumContent": "128 mg"
+    ,"sugarContent": "0 g"
+    ,"fatContent": "28 g"
+    ,"servingSize": "Serves 4-6"
+    ,"unsaturatedFatContent": "0 g"
+    }
+    ,"prepTime": "PT8M"
+    , "recipeCategory": ["Dinner","Budget","Beef","Beef Roast"]
+    ,"recipeCuisine": ["American"]
+    ,"recipeIngredient": [
+    "3 to 3 1/2 pounds (1.3 to 1.6 kg) of Boneless Rump Roast (pick an end cut with a layer of fat if you can)",
+    "1 tablespoon extra virgin olive oil",
+    "8-10 slivers of garlic (3 to 4 cloves, sliced in half or into thirds)",
+    "Salt and pepper",
+    "For the gravy:",
+    "Red wine, water, and or beef stock",
+    "Cornstarch" ]
+    ,"recipeInstructions": [
+    {
+    "@type": "HowToStep"
+    ,"text": "Salt the roast and let it come to room temp: The beef should be brought as close to room temperature as possible before you start to roast it, so that it cooks more evenly. Remove it from the refrigerator at least 1 hour, preferably 2 hours, before cooking. Open the wrapping, sprinkle all sides with salt, and wrap it up again."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Preheat the oven to 375°F: (190°C). Move a rack to the center of the oven, and place the other one underneath."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/a9ah_qLGBQpM3uubj1yxSzuvxwo=/5276x3517/filters:no_upscale()/Simply-Recipes-Roast-Beef-METHOD-1-05f0852e3984455aa5d74132b0d44320.jpg",
+    "height": 3517,
+    "width": 5276
+    }
+    ,"text": "Insert slivers of garlic into the roast: Pat the roast dry with paper towels. Use the tip of a sharp knife to make 8 to 10 small incisions around the roast. Put a sliver of garlic into each cut."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/794Nmjox7KwZ5tY_0xMIlkTRjWY=/5256x3504/filters:no_upscale()/Simply-Recipes-Roast-Beef-METHOD-2-4401336aa8364497990ff6874ff8e854.jpg",
+    "height": 3504,
+    "width": 5256
+    }
+    ,"text": "Rub the roast with olive oil, then season: Rub olive oil all over the roast. Sprinkle it all around with salt and pepper."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/p0WhyoFmZLAfobLnCwXm-5Yh5wU=/6000x4000/filters:no_upscale()/Simply-Recipes-Roast-Beef-METHOD-3-5079ef918f4a495a936a97e6d079e0ac.jpg",
+    "height": 4000,
+    "width": 6000
+    }
+    ,"text": "Put the roast on the rack with a pan below: Place the roast directly on the middle oven rack, fatty side up, with a roasting pan to catch the drippings on the rack beneath it. Placing the roast directly on the rack like this with a pan on the rack below creates a convection type environment in the oven, allowing the hot air to more easily circulate around the roast, so you don&#39;t have to turn the roast as it cooks. Place the roast, fat-side up so that as the fat bathes the entire roast in flavor as it melts."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/bmRqpc6yVh-JWk1ajJskzRZWkvw=/5346x3564/filters:no_upscale()/Simply-Recipes-Roast-Beef-METHOD-4-3fb2b106c25348bea8273625f6697331.jpg",
+    "height": 3564,
+    "width": 5346
+    }
+    ,"text": "Brown at 375°F, then lower the heat to 225°F: Cook the roast initially at 375°F (190°C) for half an hour, to brown it. Then lower the heat to 225°F (107°C). The roast should take somewhere from 1 1/2 to 2 1/2 hours more to cook. The shape of the roast will affect the cooking time. If your roast is long and narrow, rather than a more round shape, it may take less time to cook, so keep an eye on it."
+    } ,{
+    "@type": "HowToStep"
+    ,"text": "Roast to an internal temp of 135°F to 140°F: When juices start to drip from the roast, and it is browned on the outside, check the roast&#39;s internal temperature with a meat thermometer. Remove the roast from the oven when the internal temperature of the roast is 135°F to 140°F (for medium rare meat)."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/R0QIchESjnvl2e5FQzvtFKtlmPM=/6000x4000/filters:no_upscale()/Simply-Recipes-Roast-Beef-METHOD-10-f3ab0070fc0f47eb8d4c7f1946ad5347.jpg",
+    "height": 4000,
+    "width": 6000
+    }
+    ,"text": "Make the gravy as the roast rests: Place the roast on a cutting board and tent it with aluminum foil to keep it warm. Let it rest for 20 to 30 minutes before cutting. (Resting the cooked roast is important. If you cut into it too soon, the roast will lose more of its juices.) To make the gravy: Remove the dripping pan from the oven and place on the stove top at medium heat. Note that if you are pulling the roast out early, for rare or a medium rare level of doneness, you may not have a lot of drippings. Hopefully you will have some. If not, you may want to leave the roast in a little longer at even lower heat, 175°F, to ease some more drippings out of it. Add some water, red wine, or beef stock to the drippings to deglaze (loosen the drippings from the pan). Dissolve a tablespoon of cornstarch in a little water and add to the drip pan. Stir quickly while the gravy thickens to avoid lumping. You can add a little butter if there is not a lot of fat in the drippings. Add salt and pepper to taste. Mom adds some fresh thyme too if she has some."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.simplyrecipes.com/thmb/Kh8yoFrXeSnbSjNT0vh_mEDpYdc=/4958x3305/filters:no_upscale()/Simply-Recipes-Roast-Beef-LEAD-5-574dc86542c54e488f1f724c31b4dfb0.jpg",
+    "height": 3305,
+    "width": 4958
+    }
+    ,"text": "Slice and serve: After the roast has had a chance to rest a bit (and reabsorb its juices), thinly slice the roast to serve. (A sturdy long bread knife works well for slicing roasts.) Pour the gravy over the slices or serve on the side."
+    } ]
+    ,"recipeYield": "6"
+    ,"totalTime": "PT308M"
+    ,"review": [
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Sue Krause"
+    },
+    "reviewBody": "Questioned putting my roast on the oven rack with a pan under. What a mess! Will never make that mistake again."
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Steven Grodsky"
+    },
+    "reviewBody": "Elise, I've been using this recipe for years. It is nothing short of terrific. I've yet to have anything but a perfect roast. \nSteve G"
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Jane from MA"
+    },
+    "reviewBody": "I have used this method for years, and I learned it here! It works great. Thanks, Elise's mom!\n\nI don't use the garlic slivers, though. I think this is a new addition?\n\nThe roast directly on the rack does not make a huge mess. Yeah, you have to clean it, but it's not excessive. Make sure you have a pan underneath! You can always use a high rack in a roasting pan and lower the oven rack so it fits."
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Paul Johnson"
+    },
+    "reviewBody": "Just cooked this sans garlic. Beef so tender and juicy. Worked like a charm"
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Brittany McCoy"
+    },
+    "reviewBody": "Red wine vinegar work?"
+    }
+    ]
+    ,"mainEntityOfPage": {
+    "@type": ["WebPage"]
+    ,"@id": "https://www.simplyrecipes.com/recipes/roast_beef/"
+    ,"breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+    "@id": "https://www.simplyrecipes.com/beef-recipes-5091171",
+    "name": "Beef"
+    }
+    }
+    ,
+    {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+    "@id": "https://www.simplyrecipes.com/beef-roast-recipes-5091180",
+    "name": "Beef Roast"
+    }
+    }
+    ,
+    {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+    "@id": "https://www.simplyrecipes.com/recipes/roast_beef/",
+    "name": "Roast Beef"
+    }
+    }
+    ]
+    }
+    }
+    , "about": [
+    ]		
+    }

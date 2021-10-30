@@ -5,14 +5,17 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/dutch_apple_pie.json',
+  'assets/recipes/roast_beef.json',
+  'assets/recipes/Turkey_white_chili.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
 // data will be added to this object below. You may use whatever you like for the
 // keys as long as it's unique, one suggestion might but the URL itself
 const recipeData = {}
-
+var count = 0;
 window.addEventListener('DOMContentLoaded', init);
 
 // This is the first function to be called, so when you are tracing your code start here.
@@ -43,6 +46,20 @@ async function fetchRecipes() {
     // in the recipes folder and fetch them from there. You'll need to add their paths to the recipes array.
 
     // Part 1 Expose - TODO
+    
+    for(let i = 0; i < recipes.length; i++){
+      fetch(recipes[i])
+      .then(response => response.json())
+      .then(data => {
+        recipeData[recipes[i]] = data;
+        count++;
+        if(count == recipes.length){
+          resolve(true);
+        }
+      })
+      .catch(error => reject(false))
+    }
+    
   });
 }
 
@@ -54,6 +71,13 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
+  for(let i =0; i < 3; i++){
+    const card = document.createElement("recipe-card");
+    card.setAttribute('id', i);
+    card.data = recipeData[recipes[i]];
+    const main = document.querySelector('main');
+    main.appendChild(card);
+  }
 }
 
 function bindShowMore() {
@@ -65,4 +89,24 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+  var button = document.querySelector('button');
+  button.addEventListener('click', event =>{
+    if(button.textContent == 'Show more'){
+      for(let i = 3; i < count; i++){
+        let card = document.createElement("recipe-card");
+        card.setAttribute('id', i);
+        card.data = recipeData[recipes[i]];
+        const main = document.querySelector('main');
+        main.appendChild(card);
+      }
+      button.textContent = 'Show less';
+    }
+    else{
+      for(let i = 3; i < count; i++){
+        const card = document.getElementById(i);
+        card.remove();
+      }
+      button.textContent = 'Show more';
+    }
+  });
 }

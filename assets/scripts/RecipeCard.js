@@ -1,8 +1,10 @@
 class RecipeCard extends HTMLElement {
   constructor() {
     // Part 1 Expose - TODO
-
+    super();
+    let shadow = this.attachShadow({mode: 'open'});
     // You'll want to attach the shadow DOM here
+    
   }
 
   set data(data) {
@@ -98,8 +100,83 @@ class RecipeCard extends HTMLElement {
 
     // Make sure to attach your root element and styles to the shadow DOM you
     // created in the constructor()
-
+    
     // Part 1 Expose - TODO
+    this.shadowRoot.appendChild(card);
+    this.shadowRoot.appendChild(styleElem);
+    
+    var Image = document.createElement('img');
+    
+    console.log(data);
+    Image.setAttribute('src', getImgUrl(data));
+    Image.setAttribute('alt', 'Recipe Title');
+    card.appendChild(Image);
+
+    var p1 = document.createElement('p');
+    p1.setAttribute('class', "title");
+    card.appendChild(p1);
+
+    var Title = document.createElement('a');
+    Title.setAttribute('href', getUrl(data));
+    Title.textContent = searchForKey(data, 'headline');
+    p1.appendChild(Title);
+
+    var p2 = document.createElement('p');
+    p2.setAttribute('class', "organization");
+    p2.textContent = getOrganization(data);
+    card.appendChild(p2);
+
+    var rating = document.createElement('div');
+    rating.setAttribute('class', "rating");
+    card.appendChild(rating);
+    if(searchForKey(data,'aggregateRating') != null){
+      var rateValue = document.createElement('span');
+      var rateCount = document.createElement('span');
+      var starImg = document.createElement('img');
+      rating.appendChild(rateValue);
+      rating.appendChild(starImg);
+      rating.appendChild(rateCount);
+      rateValue.textContent = searchForKey(data, 'ratingValue');
+      rateCount.textContent = searchForKey(data, 'ratingCount');
+      if(Math.round(rateValue.textContent) == 4){
+        starImg.setAttribute('src', "/assets/images/icons/5-star.svg");
+        starImg.setAttribute('alt', "5 stars")
+      }
+      if(Math.round(rateValue.textContent) == 0){
+        starImg.setAttribute('src', "/assets/images/icons/0-star.svg");
+      }
+      if(Math.round(rateValue.textContent) == 1){
+        starImg.setAttribute('src', "/assets/images/icons/1-star.svg");
+      }
+      if(Math.round(rateValue.textContent) == 2){
+        starImg.setAttribute('src', "/assets/images/icons/2-star.svg");
+      }
+      if(Math.round(rateValue.textContent) == 3){
+        starImg.setAttribute('src', "/assets/images/icons/3-star.svg");
+      }
+      if(Math.round(rateValue.textContent) == 4){
+        starImg.setAttribute('src', "/assets/images/icons/4-star.svg");
+      }
+      if(Math.round(rateValue.textContent) == 5){
+        starImg.setAttribute('src', "/assets/images/icons/5-star.svg");
+      }
+      
+      
+    }
+    else{
+      var Noreview = document.createElement('span');
+      Noreview.textContent = "No Reviews";
+      rating.appendChild(Noreview);
+    }
+
+    var times = document.createElement('time');
+    times.textContent = convertTime(searchForKey(data,'totalTime'));
+    card.appendChild(times);
+    
+    var p3 = document.createElement('p');
+    p3.setAttribute('class', "ingredients");
+    p3.textContent = createIngredientList(searchForKey(data,"recipeIngredient"));
+    card.appendChild(p3);
   }
 }
 
@@ -130,6 +207,24 @@ function searchForKey(object, key) {
   });
   return value;
 }
+/**
+ * Extract img url from JSON object
+ * @param {Object} data 
+ * @returns {String} If found, it returns the URL of image as a string
+ */
+ function getImgUrl(data) {
+  if (searchForKey(data, 'thumbnail') != undefined) return data.image.url;
+  if(searchForKey(data,'@graph') == undefined){
+    return data.image[0]['url'];
+  };
+  if (data['@graph']) {
+    for (let i = 0; i < data['@graph'].length; i++) {
+      if (data['@graph'][i]['@type'] == 'ImageObject') return data['@graph'][i]['url'];
+    }
+  };
+  return null;
+}
+
 
 /**
  * Extract the URL from the given recipe schema JSON object

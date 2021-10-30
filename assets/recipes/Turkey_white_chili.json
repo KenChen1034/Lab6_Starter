@@ -1,0 +1,197 @@
+{
+"@context": "http://schema.org",
+
+"@type": ["Recipe"]
+,"headline": "Turkey White Chili"
+,"datePublished": "2009-11-26T19:06:47.000-05:00"
+,"dateModified": "2018-11-23T01:00:00.000-05:00"
+,"author": [
+{"@type": "Person"
+,"name": "Elise Bauer"
+,"description": "Elise founded Simply Recipes in 2003 and led the site until 2019. She has an MA in Food Research from Stanford University."
+,"jobTitle": "Founder"
+,"sameAs": [
+"https://www.instagram.com/elisebauer/",
+"https://www.simplyrecipes.com/elise-bauer-5091824"
+]
+,"knowsAbout": ["Scratch cooking with whole ingredients"]
+,"alumniOf": [
+{
+"@type": "Organization",
+"Name": "Stanford University: BS in Environmental Science; MA in Food Research; MBA from the Graduate School of Business "
+}
+]
+}
+]
+,"description": "If you have leftover turkey from Thanksgiving, make this White Turkey Chili! It&#39;s made with white beans, green chilis, garlic, and of course, turkey."
+,"image": [
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/qditM7ldaorYaAlLgvCxWCLPXfc=/1600x900/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__11__turkey-white-chili-horiz-a-1600-c285b7bcb2d0474f98e8529c504d1963.jpg",
+"height": 900,
+"width": 1600
+},
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/SRaNREYuAkKYIyQlAj6DUmfXeK4=/1423x1067/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__11__turkey-white-chili-horiz-a-1600-c285b7bcb2d0474f98e8529c504d1963.jpg",
+"height": 1067,
+"width": 1423
+},
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/dc-cGGv1RxYHIN4gd6n0BJeThYM=/1067x1067/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__11__turkey-white-chili-horiz-a-1600-c285b7bcb2d0474f98e8529c504d1963.jpg",
+"height": 1067,
+"width": 1067
+}
+]
+,"publisher": {
+"@type": "Organization",
+"name": "Simply Recipes",
+"url": "https://www.simplyrecipes.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+"width": 1125,
+"height": 320
+},
+"brand": "Simply Recipes"
+, "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#editorial-guidelines"
+}
+,"name": "Turkey White Chili"
+,"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "5",
+"ratingCount": "15"
+}
+,"cookTime": "PT30M"
+,"keywords": "Chili Beans, TexMex, Turkey, Turkey Leftovers, Gluten-Free, Dinner"
+,"prepTime": "PT15M"
+, "recipeCategory": ["Dinner","Chili Beans","TexMex","Turkey","Turkey Leftovers"]
+,"recipeCuisine": ["TexMex"]
+,"recipeIngredient": [
+"1/2 pound dry white beans, soaked overnight in water, drained OR 2 15-ounce cans white beans, drained",
+"3 cups turkey stock",
+"1 clove garlic, minced",
+"1 medium onion, chopped (divided)",
+"1 tablespoon extra virgin olive oil",
+"1 jalapeño or serrano pepper, stem and most seeds removed, chopped (optional)",
+"1 teaspoon ground cumin",
+"1 teaspoon dried oregano",
+"Pinch of ground cloves",
+"1/4 teaspoon cayenne pepper",
+"2 4-ounce cans chopped green chiles",
+"2 cups diced cooked turkey",
+"Salt to taste (about 1/2 teaspoon to 1 teaspoon)",
+"Garnishes and extras:",
+"1 1/2 cups grated Monterey Jack cheese",
+"1/3 cup (loose) chopped cilantro",
+"1/4 cup chopped green onions",
+"1 avocado, pitted, peeled, and chopped (or guacamole)",
+"Chopped tomatoes or salsa",
+"Corn tortilla chips and/or fresh warmed flour tortillas" ]
+,"recipeInstructions": [
+{
+"@type": "HowToStep"
+,"text": "Cook beans if using dry beans: Combine soaked and drained beans, turkey stock, and half the onions in a large soup pot and bring to a boil. Reduce heat and simmer until beans are very soft, 1 to 3 hours or more, depending on the type of white beans you are using. Cannelli beans are tender and tend to cook rather quickly. Navy beans take longer. Add additional water (or watered-down stock), if necessary. Or you can skip the soaking and cook the beans in turkey stock with the onions in a pressure cooker. Cook on high pressure for 30 minutes, then let release naturally for 10 minutes. If using canned beans: Combine the beans and the turkey stock in a large soup pot and bring to a boil. Reduce to a simmer."
+} ,{
+"@type": "HowToStep"
+,"text": "Cook jalapeño, onions, garlic, green chiles: Heat olive oil in a skillet on medium heat, cook chopped jalapeño (if using) and (remaining) onions in oil until tender. Add the minced garlic and cook a minute more. Add green chiles and seasonings and mix thoroughly."
+} ,{
+"@type": "HowToStep"
+,"text": "Combine jalapeño mixture and turkey to stock: Add the jalapeño onion mixture to the stock and beans. Add the turkey and salt to taste, and simmer for 10 minutes or more (up to an hour) until the beans are thoroughly soft and the stew has thickened."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/0sOqKU-ea1161muOnh72GmmtaQ4=/1600x1067/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__11__turkey-white-chili-horiz-b-1600-a8afd4b45f724a338b001adad49a6473.jpg",
+"height": 1067,
+"width": 1600
+}
+,"text": "Serve: Serve topped with grated cheese. Garnish with cilantro, chopped fresh tomato, salsa, chopped green onions, and/or avocados. Serve with fresh warmed flour tortillas or tortilla chips."
+} ]
+,"recipeYield": "5"
+,"totalTime": "PT225M"
+,"review": [
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Penny"
+},
+"reviewBody": "YUM - perfect as written! used dried navy beans - only note to self is to NOT overcook the beans in Step One. used 1/2 HOT and 1/2 MILD green chiles for a nice kick. Perfect with a dollop of sour cream and avocado atop."
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "WW"
+},
+"reviewBody": "Great recipe- made with northern canned white beans, jalepeno and 1.5 lb ground turkey. By far my favorite white chili recipe. Anyone have the nutritional info as made in the recipe?"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Lyn"
+},
+"reviewBody": "Thank you for this recipe! My husband and I both loved it. I especially love that it's healthy. It's a keeper!"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Chef B."
+},
+"reviewBody": "Prepared recipe, added a few tweeks, for heat used Ancho chili pepper &#38; chili paste (sambal), for creaminess refried veg beans, lots of garlic, over jasmine rice delicious"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Emiko"
+},
+"reviewBody": "<p>I think this is my favorite turkey leftover recipe. I personally get tired after the third day straight of turkey. This changes it up enough without taking away from the awesomeness of the turkey. I used 2 cans of cannellini beans, and loved the creaminess. I'm pretty sure I'll be making some more at the end of December.<\/p>"
+}
+]
+,"mainEntityOfPage": {
+"@type": ["WebPage"]
+,"@id": "https://www.simplyrecipes.com/recipes/turkey_white_chili/"
+,"breadcrumb": {
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.simplyrecipes.com/dinner-recipes-by-type-5091419",
+"name": "Dinners By Types"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://www.simplyrecipes.com/chili-recipes-5091416",
+"name": "Chili"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@id": "https://www.simplyrecipes.com/recipes/turkey_white_chili/",
+"name": "White Turkey Chili Recipe"
+}
+}
+]
+}
+}
+, "about": [
+]		
+}
