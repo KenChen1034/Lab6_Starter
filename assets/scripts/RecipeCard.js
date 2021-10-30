@@ -139,7 +139,7 @@ class RecipeCard extends HTMLElement {
       rateValue.textContent = searchForKey(data, 'ratingValue');
       rateCount.textContent = searchForKey(data, 'ratingCount');
       if(Math.round(rateValue.textContent) == 4){
-        starImg.setAttribute('src', "/assets/images/icons/5-star.svg");
+        starImg.setAttribute('src', "assets/images/icons/5-star.svg");
         starImg.setAttribute('alt', "5 stars")
       }
       if(Math.round(rateValue.textContent) == 0){
