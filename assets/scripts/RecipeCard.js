@@ -139,22 +139,22 @@ class RecipeCard extends HTMLElement {
       rateValue.textContent = searchForKey(data, 'ratingValue');
       rateCount.textContent = searchForKey(data, 'ratingCount');
       if(Math.round(rateValue.textContent) == 0){
-        starImg.setAttribute('src', "Lab6_Starter/assets/images/icons/0-star.svg");
+        starImg.setAttribute('src', "KenChen1034/Lab6_Starter/assets/images/icons/0-star.svg");
       }
       if(Math.round(rateValue.textContent) == 1){
-        starImg.setAttribute('src', "Lab6_Starter/assets/images/icons/1-star.svg");
+        starImg.setAttribute('src', "KenChen1034/Lab6_Starter/assets/images/icons/1-star.svg");
       }
       if(Math.round(rateValue.textContent) == 2){
-        starImg.setAttribute('src', "Lab6_Starter/assets/images/icons/2-star.svg");
+        starImg.setAttribute('src', "KenChen1034/Lab6_Starter/assets/images/icons/2-star.svg");
       }
       if(Math.round(rateValue.textContent) == 3){
-        starImg.setAttribute('src', "Lab6_Starter/assets/images/icons/3-star.svg");
+        starImg.setAttribute('src', "KenChen1034/Lab6_Starter/assets/images/icons/3-star.svg");
       }
       if(Math.round(rateValue.textContent) == 4){
-        starImg.setAttribute('src', "Lab6_Starter/assets/images/icons/4-star.svg");
+        starImg.setAttribute('src', "KenChen1034/Lab6_Starter/assets/images/icons/4-star.svg");
       }
       if(Math.round(rateValue.textContent) == 5){
-        starImg.setAttribute('src', "Lab6_Starter/assets/images/icons/5-star.svg");
+        starImg.setAttribute('src', "KenChen1034/Lab6_Starter/assets/images/icons/5-star.svg");
       }
       
       
